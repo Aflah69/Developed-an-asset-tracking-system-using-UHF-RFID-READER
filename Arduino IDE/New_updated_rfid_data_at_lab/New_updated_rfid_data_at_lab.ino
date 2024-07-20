@@ -4,8 +4,8 @@
 #include <FS.h> // Include the SPIFFS library
 
 #ifndef STASSID
-#define STASSID "yo"
-#define STAPSK "12345678"
+#define STASSID "YOUR_SSID"
+#define STAPSK "YOUR_PASSWORD"
 #endif
 
 const char *ssid = STASSID;
