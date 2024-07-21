@@ -12,7 +12,7 @@ const char *ssid = STASSID;
 const char *password = STAPSK;
 
 ESP8266WebServer server(80);
-SoftwareSerial espSerial(2, 3);
+
 
 struct ObjectDetails {
   String tagNumber;
@@ -154,7 +154,7 @@ void setup() {
 
   Serial.println("HTTP server started");
 
-  //espSerial.begin(115200); // Initialize SoftwareSerial
+  
 }
 
 String receivedString; // Declare receivedString at a global scope
