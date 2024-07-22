@@ -1,6 +1,5 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
-#include <SoftwareSerial.h>
 #include <FS.h> // Include the SPIFFS library
 
 #ifndef STASSID
