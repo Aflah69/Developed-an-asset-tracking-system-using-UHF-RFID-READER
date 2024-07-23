@@ -1,6 +1,5 @@
 Smart Asset Tracking System Using UHF RFID Reader
 
-Developed-an-asset-tracking-system-using-UHF-RFID-READER
 The project aims to design and implement a Smart Asset Tracking System utilizing advanced technologies like Radio Frequency Identification (RFID). This system seeks to revolutionize asset management practices by automating tracking processes, reducing manual intervention, enhancing real-time visibility of assets, and optimizing security measures. Ultimately, it aims to mitigate risks associated with asset mismanagement and unauthorized access, thereby improving operational efficiency and security within organizations.
 The system includes an application with a login page for user authentication. Upon successful login, users are redirected to a dashboard offering features such as:
 
@@ -38,6 +37,7 @@ reading is required.
 Circuit Components:
 
 Hardware:
+
 1. STM32 nucleoG431RB - 2
 2. UHF RFID Reader - 2
 3. RS-232
@@ -47,6 +47,7 @@ Hardware:
 7. Wifi Network
 
 Software:
+
 1. STM32 Cube IDE
 2. Arduino IDE
 3. SMTP Server for E-Mail Generation
